@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/teal_200"
+    android:orientation="vertical">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellowist">
+    <TextView
+        android:id="@+id/Numbers"
+        style="@style/TextView"
+        android:text="@string/numbers"
+        android:background="@color/yellowist"/>
+    </FrameLayout>
+
+<FrameLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/greenist">
+    <TextView
+        android:id="@+id/family"
+        style="@style/TextView"
+        android:text="@string/family_members"
+        android:background="@color/greenist"/>
+</FrameLayout>
+
+<FrameLayout
+
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@color/greenist">
+
+    <TextView
+        android:id="@+id/color"
+        style="@style/TextView"
+        android:text="@string/colors"
+        android:background="@color/purpulist"/>
+    </FrameLayout>
+
+
+<FrameLayout
+
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@color/greenist">
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/TextView"
+        android:text="@string/phrases"
+        android:background="@color/blueist"/>
+    </FrameLayout>
+</LinearLayout>
